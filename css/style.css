@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  font-size: 16px;
+  background: khaki;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-container {
+  height: 60%;
+  width: 40%;
+  min-width: 320px;
+  background: skyblue;
+}
+.weather-container h2.title {
+  text-align: center;
+  background: #269797;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #2643d3;
+}
+.weather-container form.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.weather-container form.search input {
+  padding: 7px 12px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid green;
+  color: green;
+}
+.weather-container form.search input#search {
+  min-width: 80%;
+}
+.weather-container form.search input#submit {
+  min-width: 15%;
+  text-align: center;
+}
+.weather-container section.weather-info h2 {
+  text-align: center;
+  color: #fff;
+}
+.weather-container section.weather-info div {
+  padding: 30px 0;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.weather-container section.weather-info div p {
+  color: #557041;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
